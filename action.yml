@@ -1,9 +1,9 @@
 name: 'Airflow DAGs Validation'
-author: jayamanikharyono
+author: PriyabrataMohanty
 description: 'Validate DAGs, var and dependencies.'
 branding:
   icon: check
-  color: gray-dark
+  color: gray
 
 inputs:
   dagPaths:
