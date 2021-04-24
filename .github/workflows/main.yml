@@ -9,6 +9,6 @@ jobs:
       - name: 'Validate airflow DAGs'
         uses: ./
         with:
-          requirementsFile: tests/requirements.txt
-          dagPaths: tests/dags
-          varFile: tests/var.json
+          requirementsFile: requirements.txt
+          dagPaths: dags
+          varFile: var.json
