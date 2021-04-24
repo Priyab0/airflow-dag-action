@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: 'Validate DAGs'
+      - name: 'Validate airflow DAGs'
         uses: ./
         with:
           requirementsFile: tests/requirements.txt
