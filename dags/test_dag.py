@@ -14,7 +14,7 @@ def test_access_var():
 with DAG('test_dag',
          description='sample dag',
          schedule_interval=None,
-         start_date=datetime('2021-04-01')) as dag:
+         start_date=datetime(2021,4,1)) as dag:
     access_var = PythonOperator(
         task_id='test_access_var',
         python_callable=test_access_var,
