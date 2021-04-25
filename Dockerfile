@@ -6,4 +6,4 @@ RUN pip install apache-airflow==2.0.2
 
 RUN chmod +x /entrypoint.sh
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"] "requirements.txt" "dags" "var.json"
