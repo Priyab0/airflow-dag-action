@@ -1,5 +1,5 @@
 name: 'Airflow DAGs Validation'
-author: PriyabrataMohanty
+author: Priyabrata Mohanty
 description: 'Validate DAGs, var and dependencies.'
 
 inputs:
